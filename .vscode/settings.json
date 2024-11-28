@@ -1,0 +1,328 @@
+{
+    "javascript.suggestionActions.enabled": false,
+    "typescript.tsdk": "node_modules\\typescript\\lib",
+    // "typescript.validate.enable": false,
+    "javascript.validate.enable": false,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    },
+    "tailwindCSS.experimental.configFile": {
+        "packages/storybook/tailwind.config.js": [
+            "packages/core/theme/**/*",
+            "packages/components/**/*"
+        ],
+        "apps/docs/tailwind.config.js": "apps/docs/**/*",
+        "apps/ui/tailwind.config.js": [
+            "apps/ui/resources/views/**/*",
+            "apps/ui/resources/js/**/*"
+        ],
+    },
+    "tailwindCSS.experimental.classRegex": [
+        [
+            "([\"'`][^\"'`]*.*?[\"'`])",
+            "[\"'`]([^\"'`]*).*?[\"'`]"
+        ]
+    ],
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.autopep8"
+    },
+    "editor.formatOnSave": true,
+    "python.formatting.provider": "autopep8",
+    "pylint.lintOnChange": true,
+    "isort.args": [
+        "--profile",
+        "autopep8"
+    ],
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.typeCheckingMode": "basic",
+    "flake8.args": [
+        "--ignore=E501"
+    ],
+    "pylint.args": [
+        "--disable=C0114",
+        "--disable=C0115",
+        "--disable=C0116",
+        "--disable=W0718",
+        "--disable=R0914",
+        "--disable=C0301"
+    ],
+    "python.envFile": "${workspaceFolder}/server/ML/.tflow",
+    "python.defaultInterpreterPath": "${workspaceFolder}/server/ML/.tflow/Scripts/python",
+    "python.pythonPath": "${workspaceFolder}/server/ML/.tflow/Scripts/python",
+    "[blade]": {
+        "editor.defaultFormatter": "shufo.vscode-blade-formatter"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[md]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[php]": {
+        "editor.defaultFormatter": "open-southeners.laravel-pint",
+        "editor.formatOnSave": true
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "window.titleBarStyle": "native",
+    "apc.electron": {
+        "frame": false
+    },
+    "apc.activityBar": {
+        "size": 30
+    },
+    "apc.menubar.compact": true,
+    "apc.statusBar": {
+        "height": 28
+    },
+    "laravel-pint.enabled": true,
+    "blade.format.enable": true,
+    "breadcrumbs.enabled": true,
+    "database-client.telemetry.usesOnlineServices": false,
+    "diffEditor.ignoreTrimWhitespace": true,
+    "editor.bracketPairColorization.enabled": false,
+    "editor.cursorBlinking": "blink",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorStyle": "block",
+    "editor.fontLigatures": true,
+    "editor.inlineSuggest.enabled": true,
+    "editor.minimap.enabled": true,
+    "editor.stickyScroll.enabled": true,
+    "editor.stickyScroll.scrollWithEditor": true,
+    "emmet.excludeLanguages": [
+        "markdown",
+        "php"
+    ],
+    "errorLens.messageTemplate": "$severity $source - $message  ",
+    "explorer.compactFolders": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "files.autoSave": "off",
+    "git-graph.graph.style": "angular",
+    "git.confirmSync": false,
+    "gitblame.inlineMessageFormat": "${author.name} - ${time.ago}",
+    "gitblame.statusBarMessageFormat": "${author.name} - ${time.ago}",
+    "intelephense.telemetry.enabled": true,
+    "laravel-pint.enable": true,
+    "laravel-pint.enableDebugLogs": true,
+    "laravel-pint.preset": "laravel",
+    "phpParameterHint.changeDelay": 0,
+    "phpParameterHint.fontSize": 14,
+    "phpParameterHint.hintTypeName": 2,
+    "phpParameterHint.onChange": true,
+    "phpParameterHint.onSave": false,
+    "phpParameterHint.opacity": 1,
+    "phpParameterHint.saveDelay": 0,
+    "phpParameterHint.showDollarSign": false,
+    "phpParameterHint.textEditorChangeDelay": 0,
+    "phpParameterHint.verticalPadding": 0,
+    "scm.diffDecorations": "gutter",
+    "screencastMode.fontSize": 30,
+    "screencastMode.keyboardOverlayTimeout": 5000,
+    "screencastMode.verticalOffset": 2,
+    "security.workspace.trust.untrustedFiles": "open",
+    "telemetry.telemetryLevel": "off",
+    "terminal.explorerKind": "external",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.defaultProfile.windows": "Ubuntu-24.04 (WSL)",
+    "terminal.integrated.enableMultiLinePasteWarning": "auto",
+    "terminal.integrated.gpuAcceleration": "on",
+    "terminal.integrated.fontFamily": "AnonymicePro Nerd Font",
+    "update.mode": "default",
+    "window.autoDetectColorScheme": true,
+    "window.commandCenter": true,
+    "window.title": "${rootName}",
+    "workbench.activityBar.location": "top",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "GitHub Dark Default",
+    "errorLens.enabledDiagnosticLevels": [
+        "error",
+        "warning"
+    ],
+    "cSpell.enabled": true,
+    "cSpell.words": [
+        "IBAN",
+        "Jeddah",
+        "logi",
+        "Logix",
+        "Sonner",
+        "Sparkline",
+        "Sulaimani",
+        "ZATCA"
+    ],
+    "markdownlint.config": {
+        "default": true,
+        "MD003": {
+            "style": "atx"
+        },
+        "MD007": {
+            "indent": 4
+        },
+        "no-hard-tabs": false,
+        "MD033": false
+    },
+    "todohighlight.keywords": [
+        "FIXME:",
+        "REVIEW:",
+        {
+            "text": "TODO",
+            "color": "white",
+            "backgroundColor": "rgba(25,25,100)",
+            "border": "none",
+            "isWholeLine": false
+        },
+        {
+            "text": "PLANNED",
+            "color": "white",
+            "backgroundColor": "rgba(16,109,137)",
+            "border": "none",
+            "isWholeLine": false
+        },
+        {
+            "text": "INFO:",
+            "color": "cyan",
+            "backgroundColor": "rgba(0,0,0,0)",
+            "border": "none",
+            "isWholeLine": false
+        },
+        {
+            "text": "ENHANCEMENT",
+            "color": "#a0eeee",
+            "backgroundColor": "rgba(0,0,0,0)",
+            "border": "1px solid #a0eeee",
+            "borderRadius": "2px",
+            "isWholeLine": false,
+            "diagnosticSeverity": "warning"
+        },
+        {
+            "text": "ISSUE",
+            "color": "red",
+            "backgroundColor": "rgba(0,0,0,0)",
+            "border": "1px solid red",
+            "borderRadius": "2px",
+            "isWholeLine": false,
+            "diagnosticSeverity": "warning"
+        },
+        {
+            "text": "BUG",
+            "color": "#EB9CA6",
+            "backgroundColor": " #d73a4a2e",
+            "border": "1px solid #d73a4a2e",
+            "borderRadius": "2px",
+            "isWholeLine": false,
+            "diagnosticSeverity": "warning"
+        },
+        {
+            "text": "FIXED",
+            "color": "green",
+            "backgroundColor": "rgba(0,0,0,0)",
+            "border": "1px solid green",
+            "borderRadius": "2px",
+            "isWholeLine": false
+        },
+        {
+            "text": "RESOLVED",
+            "color": "rgba(117,211,117)",
+            "backgroundColor": "rgba(0,0,0,0)",
+            "border": "1px solid rgba(117,211,117)",
+            "borderRadius": "2px",
+            "isWholeLine": false
+        },
+        {
+            "text": "IN-PROGRESS",
+            "color": "orange",
+            "backgroundColor": "rgba(0,0,0,0)",
+            "border": "1px solid orange",
+            "borderRadius": "2px",
+            "isWholeLine": false
+        },
+        {
+            "text": "IN-REVIEW",
+            "color": "rgba(135,85,225)",
+            "backgroundColor": "rgba(0,0,0,0)",
+            "border": "1px solid rgba(135,85,225)",
+            "borderRadius": "2px",
+            "isWholeLine": false
+        },
+        {
+            "text": "COMMIT",
+            "color": "rgba(30,109,231,100)",
+            "backgroundColor": "rgba(0,0,0,0)",
+            "border": "1px solid rgba(30,109,231,100)",
+            "borderRadius": "2px",
+            "isWholeLine": false
+        },
+        {
+            "text": "RELEASE",
+            "color": "rgba(186,84,28,100)",
+            "backgroundColor": "rgba(0,0,0,0)",
+            "border": "1px solid rgba(186,84,28,100)",
+            "borderRadius": "2px",
+            "isWholeLine": false
+        },
+        {
+            "text": "PUBLISHED",
+            "color": "rgba(250,74,28,100)",
+            "backgroundColor": "rgba(0,0,0,0)",
+            "border": "1px solid rgba(250,74,28,100)",
+            "borderRadius": "2px",
+            "isWholeLine": false
+        },
+        {
+            "text": "WARNING",
+            "before": {
+                "contentText": "⚠️"
+            },
+            "after": {
+                "contentText": "⚠️"
+            },
+            "color": "red",
+            "border": "1px solid red",
+            "borderRadius": "2px",
+            "backgroundColor": "rgba(0,0,0,.2)",
+            "diagnosticSeverity": "warning"
+        },
+        {
+            "text": "TODO(string)",
+            "regex": {
+                "pattern": "(?<=^|\"|\\s)TODO(\\(\\w+\\))?:"
+            },
+            "color": "red",
+            "border": "1px solid red",
+            "borderRadius": "2px",
+            "backgroundColor": "rgba(0,0,0,.2)"
+        },
+        {
+            "text": "NOTE",
+            "color": "#ff0000",
+            "backgroundColor": "yellow",
+            "overviewRulerColor": "grey",
+            "regex": {
+                "pattern": "(?<=^|\"|\\s)NOTE[:]?(?!\\w)"
+            },
+            "isWholeLine": false
+        },
+        {
+            "text": "DONE",
+            "color": "green",
+            "backgroundColor": "rgba(0,0,0,0)",
+            "border": "none",
+            "isWholeLine": false
+        }
+    ]
+}

@@ -1,0 +1,121 @@
+{
+    "printWidth": 100,
+    "semi": true,
+    "useTabs": false,
+    "singleQuote": false,
+    "bracketSpacing": false,
+    "tabWidth": 2,
+    "trailingComma": "all",
+    "overrides": [
+        {
+            "files": "**/*.twig",
+            "options": {
+                "htmlWhitespaceSensitivity": "ignore",
+                "proseWrap": "always",
+                "quoteProps": "preserve",
+                "semi": true,
+                "twigMultiTags": [
+                    "nav,endnav",
+                    "switch,case,default,endswitch",
+                    "ifchildren,endifchildren",
+                    "cache,endcache",
+                    "js,endjs"
+                ]
+            }
+        },
+        {
+            "files": "**/*.js",
+            "options": {
+                "parser": "babel",
+                "bracketSameLine": true,
+                "bracketSpacing": true,
+                "jsxSingleQuote": true,
+                "printWidth": 120,
+                "semi": true,
+                "useTabs": true,
+                "tabWidth": 2,
+                "singleQuote": true,
+                "trailingComma": "none"
+            }
+        },
+        {
+            "files": "**/*.jsx",
+            "options": {
+                "parser": "babel",
+                "bracketSameLine": true,
+                "bracketSpacing": true,
+                "jsxSingleQuote": true,
+                "printWidth": 120,
+                "semi": true,
+                "useTabs": true,
+                "tabWidth": 2,
+                "singleQuote": true,
+                "trailingComma": "es5"
+            }
+        },
+        {
+            "files": "**/*.tsx",
+            "options": {
+                "parser": "babel-ts",
+                "tabWidth": 2,
+                "printWidth": 100,
+                "semi": true,
+                "useTabs": false,
+                "singleQuote": false,
+                "bracketSpacing": false,
+                "endOfLine": "auto",
+                "arrowParens": "always",
+                "trailingComma": "all"
+            }
+        },
+        {
+            "files": "**/*.ts",
+            "options": {
+                "parser": "babel-ts",
+                "tabWidth": 2,
+                "printWidth": 100,
+                "semi": true,
+                "useTabs": false,
+                "singleQuote": false,
+                "bracketSpacing": false,
+                "endOfLine": "auto",
+                "arrowParens": "always",
+                "trailingComma": "all"
+            }
+        },
+        {
+            "files": "**/*.css",
+            "options": {
+                "parser": "css",
+                "printWidth": 100,
+                "semi": false,
+                "singleQuote": false,
+                "trailingComma": "none"
+            }
+        },
+        {
+            "files": "**/*.scss",
+            "options": {
+                "bracketSpacing": true,
+                "htmlWhitespaceSensitivity": "css",
+                "parser": "scss",
+                "printWidth": 100,
+                "semi": true,
+                "singleQuote": false,
+                "trailingComma": "none",
+                "useTabs": false
+            }
+        },
+        {
+            "files": "**/*.json",
+            "options": {
+                "parser": "json",
+                "printWidth": 100,
+                "semi": false,
+                "tabWidth": 4,
+                "singleQuote": true,
+                "trailingComma": "none"
+            }
+        }
+    ]
+}
