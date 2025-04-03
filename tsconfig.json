@@ -8,15 +8,23 @@
         "baseUrl": ".",
         "rootDir": ".",
         "paths": {
-            "@/*": ["./*"],
-            "tailwind-variants": ["./node_modules/tailwind-variants"]
+            "@/*": [
+                "./src/*"
+            ],
+            "tailwind-variants": [
+                "./node_modules/tailwind-variants"
+            ]
         },
         "allowJs": true,
         "forceConsistentCasingInFileNames": true,
         "noEmit": true,
         "incremental": true,
         "jsx": "preserve",
-        "lib": ["dom", "dom.iterable", "esnext"],
+        "lib": [
+            "dom",
+            "dom.iterable",
+            "esnext"
+        ],
         "skipLibCheck": true,
         "strict": true,
         "esModuleInterop": true,
@@ -31,6 +39,13 @@
         ],
         "strictNullChecks": true
     },
-    "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
-    "exclude": ["node_modules"]
+    "include": [
+        "next-env.d.ts",
+        "src/**/*.ts",
+        "src/**/*.tsx",
+        ".next/types/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
 }

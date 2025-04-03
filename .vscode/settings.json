@@ -1,43 +1,28 @@
 {
+    "github.copilot.enable": {
+        "markdown": true
+    },
     "javascript.suggestionActions.enabled": false,
     "typescript.tsdk": "node_modules\\typescript\\lib",
-    // "typescript.validate.enable": false,
     "javascript.validate.enable": false,
-    "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": "explicit"
-    },
     "tailwindCSS.experimental.configFile": {
         "packages/storybook/tailwind.config.js": [
             "packages/core/theme/**/*",
             "packages/components/**/*"
         ],
         "apps/docs/tailwind.config.js": "apps/docs/**/*",
-        "apps/ui/tailwind.config.js": [
-            "apps/ui/resources/views/**/*",
-            "apps/ui/resources/js/**/*"
-        ],
+        "apps/ui/tailwind.config.js": ["apps/ui/resources/views/**/*", "apps/ui/resources/js/**/*"]
     },
     "tailwindCSS.experimental.classRegex": [
-        [
-            "([\"'`][^\"'`]*.*?[\"'`])",
-            "[\"'`]([^\"'`]*).*?[\"'`]"
-        ]
+        ["([\"'`][^\"'`]*.*?[\"'`])", "[\"'`]([^\"'`]*).*?[\"'`]"]
     ],
-    "[python]": {
-        "editor.defaultFormatter": "ms-python.autopep8"
-    },
     "editor.formatOnSave": true,
     "python.formatting.provider": "autopep8",
     "pylint.lintOnChange": true,
-    "isort.args": [
-        "--profile",
-        "autopep8"
-    ],
+    "isort.args": ["--profile", "autopep8"],
     "python.analysis.autoImportCompletions": true,
     "python.analysis.typeCheckingMode": "basic",
-    "flake8.args": [
-        "--ignore=E501"
-    ],
+    "flake8.args": ["--ignore=E501"],
     "pylint.args": [
         "--disable=C0114",
         "--disable=C0115",
@@ -72,11 +57,27 @@
         "editor.defaultFormatter": "vscode.json-language-features"
     },
     "[php]": {
-        "editor.defaultFormatter": "open-southeners.laravel-pint",
-        "editor.formatOnSave": true
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
+        "editor.formatOnSave": false
     },
     "[typescript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "files.watcherExclude": {
+        "**/node_modules/**": true
+    },
+    "eslint.workingDirectories": ["./apps/client/resources/js", "./apps/admin/resources/js"],
+    "search.exclude": {
+        "**/node_modules/**": true,
+        "**/vendor/**": true, // For Laravel projects
+        "**/dist/**": true, // Ignore build folders
+        "**/coverage/**": true // Ignore test coverage files
+    },
+    "typescript.tsserver.maxTsServerMemory": 4096,
+    "typescript.tsserver.excludePaths": ["node_modules"],
+    "files.exclude": {
+        "**/.git": true,
+        "**/node_modules/**": true
     },
     "window.titleBarStyle": "native",
     "apc.electron": {
@@ -103,10 +104,7 @@
     "editor.minimap.enabled": true,
     "editor.stickyScroll.enabled": true,
     "editor.stickyScroll.scrollWithEditor": true,
-    "emmet.excludeLanguages": [
-        "markdown",
-        "php"
-    ],
+    "emmet.excludeLanguages": ["markdown", "php"],
     "errorLens.messageTemplate": "$severity $source - $message  ",
     "explorer.compactFolders": false,
     "explorer.confirmDelete": false,
@@ -150,10 +148,7 @@
     "workbench.activityBar.location": "top",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorTheme": "GitHub Dark Default",
-    "errorLens.enabledDiagnosticLevels": [
-        "error",
-        "warning"
-    ],
+    "errorLens.enabledDiagnosticLevels": ["error", "warning"],
     "cSpell.enabled": true,
     "cSpell.words": [
         "IBAN",
@@ -163,7 +158,9 @@
         "Sonner",
         "Sparkline",
         "Sulaimani",
-        "ZATCA"
+        "ZATCA",
+        "أكاديمية",
+        "الحكمة"
     ],
     "markdownlint.config": {
         "default": true,

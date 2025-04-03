@@ -1,43 +1,10 @@
-# Logix UI Components Library
+# Logix Startup Template
 
 <p align="left"><a href="https://logi-x.org" target="_blank"><img width="15%" src="https://i.ibb.co/BBNVxyH/logo-full-light-256.png" alt="logi-x" /></a></p>
 
 ## Intro
 
-The **Logix UI** is a ReactJS library for creating documentation for components and libraries. It provides a flexible and easy-to-use interface for documenting your components, ensuring consistency and readability.
-
-## Usage
-
-```jsx
-import React from "react";
-import {QR} from "@logi-x/experts";
-
-const App = () => {
-  return (
-    <QR
-      type="svg"
-      width={256}
-      height={256}
-      margin={0}
-      href="https://logix.gobeyound.com?v0.0.2"
-      dotsType="classy"
-      cornerDotType="dot"
-      cornerSquareType="extra-rounded"
-      dotsColor="#000000"
-      cornerDotColor="#000000"
-      cornerSquareColor="#000000"
-      logo="https://experts.gobeyound.com/storage/logos/png/logo_small_app_1024.png"
-      logoEnabled
-      logoMargin={-60}
-      download={false}
-      fileName="qr"
-      fileExtension="svg"
-    />
-  );
-};
-
-export default App;
-```
+Theis is a startup template for **Logix**. It is a collection of reusable components and utilities designed to help developers build user interfaces quickly and efficiently. The library is built with React and TypeScript, ensuring type safety and a smooth development experience.
 
 ---
 
@@ -60,28 +27,21 @@ Since it's a private repository, you'll need to clone it manually. If you have a
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/logi-x/experts
-   cd experts
+   git clone https://github.com/logi-x/logix
+   cd logix
    ```
 
 2. Install npm dependencies with yarn or npm: (yarn recommended)
 
    ```bash
-   yarn install
+   yarn
    ```
 
 3. Start the development servers:
 
    ```bash
-   yarn experts:docs
+   yarn dev
    ```
-
----
-
-## Technologies Used
-
-- **Docs**:
-  - ReactJS (for testing React components)
 
 ---
 
@@ -96,10 +56,6 @@ We welcome contributions to improve **Logix**! To contribute:
 5. Create a new Pull Request.
 
 ---
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Experts Android, iOS or website, please send an e-mail to Ahmed Sulaimani via [ahmed.sulaimani@hotmail.com](mailto:ahmed.sulaimani@hotmail.com). All security vulnerabilities will be promptly addressed.
 
 ## License
 
@@ -126,4 +82,4 @@ By using Experts App, you acknowledge that you have read, understood, and agreed
 
 ## Contact
 
-For questions or support, please reach out to us at [ahmed.sulaimani@hotmail.com](mailto:ahmed.sulaimani@hotmail.com).
+For questions or support, please reach out to us at [contact@logi-x.org](mailto:contact@logi-x.org).
